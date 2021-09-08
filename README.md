@@ -4,7 +4,7 @@ This is a **FULL STACK WEB APPLICATION** that uses **MONGODB** and **Firebase** 
 
 # WHAT IS DOGEBOOK?
 
-Dogebook is a simple social media application that have all the basic functionality in modern social application including:
+Dogebook is a simple social media application that have the basic functionalities in modern social application including:
 
 * Make a post
 * Like, Favorite, Share and Reply to a post
