@@ -1,6 +1,6 @@
 # WELCOME TO DOGEBOOK
 
-This is a **FULL STACK WEB APPLICATIN** that use **MONGODB** and **Firebase** as a database, **Express**, **Node.js** for the server side, **React.js** as a front end and **websocket** for the messaging and real time post update.
+This is a **FULL STACK WEB APPLICATION** that uses **MONGODB** and **Firebase** as a database, **Express**, **Node.js** for the server side, **React.js** as a front end and **websocket** for the messaging and real time post event.
 
 # WHAT IS DOGEBOOK?
 
