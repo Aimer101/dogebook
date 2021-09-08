@@ -77,12 +77,15 @@ You can create a post with/ without image
 ![image](https://user-images.githubusercontent.com/60194292/132559052-93f25d48-1734-4e93-8cf5-27d2626409e4.png)
 
 ## Post Functionality
-![image](https://user-images.githubusercontent.com/60194292/132559204-a8744cc8-512e-43ed-a8d5-73f7158bbe3a.png)
 
 * Like
 * Rebark(same like retweet)
 * Reply
 * Save
+* 
+![image](https://user-images.githubusercontent.com/60194292/132559204-a8744cc8-512e-43ed-a8d5-73f7158bbe3a.png)
+
+
 
 
 
