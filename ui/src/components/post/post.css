@@ -1,0 +1,192 @@
+.postWrapper{
+    padding: 10px;
+    cursor: pointer;
+
+} 
+
+
+
+.post{
+    border: 1px rgb(114, 111, 111) solid;
+    margin-bottom: 0;
+    width: 650px;
+
+
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.postCenter{
+    margin: -10px 0 10px 0;
+    text-align: left;
+    width: 550px;
+
+
+}
+
+.postText{
+    font-size: 20px;
+    margin-left: 80px;
+       
+}
+
+.postImg{
+    margin-left: 80px;
+}
+.postImg.Notext{
+    margin-left: 0;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+
+}
+.postItemDetail{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(109, 107, 107)
+}
+
+.postItemDetailDivider{
+    margin: 0 5px 15px 5px;
+    font-size: 25px;
+    color:rgb(109, 107, 107)
+
+}
+
+.postDate{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(109, 107, 107)
+}
+
+
+
+
+
+.postTopLeftImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postUsername{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.rebarkIcon.children{
+    margin-left: 0;
+}
+
+.postUsername:hover{
+    text-decoration: underline;
+}
+
+.postDate{
+    font-size: 15px;
+}
+
+
+.postImg{
+    margin-top: 20px;
+    width:90%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postImg.children.withText{
+    margin-left: 70px;
+}
+
+.postImg.children{
+    margin-left: -10px;
+}
+
+.todos:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.postBottom{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+}
+
+.postBottom.parent{
+    padding-bottom: 20px;
+}
+
+
+.saveIcon{
+    font-size: 30px !important;
+}
+
+.likeIcon, .rebarkIcon, .replyIcon{
+    width: 24px  !important;
+    height: 24px  !important;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.likeCounter, .replyCounter, .rebarkCounter{
+font-size: 18px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.liked{
+    color: red;
+}
+
+.rebarked{
+    color: orange;
+}
+
+.todos{
+    text-align: left;
+    margin-left: 80px;
+    position: relative;
+}
+
+.todosIcon{
+    position:absolute;
+    left:-30px;
+    top:-5px;
+}
+
+.connector{
+    position: relative;
+}
+
+.line{
+    height:calc(100% - 60px);
+    left:30px;
+    top:60px;
+    border-left: 2.5px rgb(114, 111, 111) solid;
+    position:absolute;
+}
+
+
+

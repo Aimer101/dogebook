@@ -1,0 +1,22 @@
+.postContainer{
+    display:flex;
+    width:100%;
+    
+}
+
+.replyWrapper{
+    padding: 20px;
+    width: 650px;
+
+}
+
+.replyBox{
+    width: 100%;
+}
+
+.loadingFetching{
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    padding-top: 100px;
+}

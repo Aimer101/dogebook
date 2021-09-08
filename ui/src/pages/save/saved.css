@@ -1,0 +1,12 @@
+.saveContainer{
+    display: flex;
+}
+
+.noSavePost{
+    height: 60vh;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 30vh;
+}
+

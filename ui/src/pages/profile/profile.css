@@ -1,0 +1,205 @@
+.profile{
+    display: flex;
+}
+
+.smallingMiddlePart{
+    flex: 3.5;
+    border-left: solid 1px;
+}
+
+.profileRight{
+    flex:5.5;
+    padding: 0 20px;
+}
+
+
+
+.profileRightTop{
+    width:650px;
+    border: 1px rgb(114, 111, 111) solid;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+.profileRightBottom{
+    display: flex;
+    padding: 0;
+}
+
+.profileCover{
+    height: 305px;
+    position:relative;
+}
+
+.profileCoverImage{
+    
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position:absolute;
+    margin:auto;
+    left: 20px;
+    top: 150px;
+    border: 3px solid white;
+}
+
+
+
+.follow{
+    position:absolute;
+    margin:auto;
+    right: 20px;
+    top: 270px;;
+    border:none;
+    width: 20%;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: black;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color:white;
+}
+
+.profileInfo{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.profilename{
+    color: rgb(80, 78, 78);
+    margin-bottom: 10px;
+
+}
+
+.profileDetail{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: row;
+}
+
+.profileStats{
+    margin-top: 20px;
+    padding-left: 30px;
+
+    width: 200px;
+    color: rgb(80, 78, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.number{
+    color: black;
+    font-weight: 900;
+}
+
+.modalBox{
+  display: block; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.editProfileBox{
+    display: block; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.hide{
+    display: none;
+}
+
+.modalContent{
+    background-color: #fefefe;
+    margin: auto;
+    width: 30%;  
+    border-radius: 10px;
+  }
+
+  .editProfileContent{
+    background-color: #fefefe;
+    margin: auto;
+    width: 35%;  
+    height: 80%;
+    border-radius: 10px;
+  }
+
+  .modalContentWrapper{
+    padding: 10px;
+    border-bottom: 1px solid #888;
+
+
+  }
+
+  .followingFollowersTop{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .followingFollowersTitle{
+      font-weight: 500;
+      margin-left: 40%;
+  }
+
+
+
+
+.following, .followers{
+    cursor: pointer;
+}
+
+.divider{
+    font-size: 60px;
+    margin-right: 10px;
+    color:black;
+}
+
+.profileDetailItem{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    color: rgb(80, 78, 78);
+}
+
+.profileUsername{
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.profileDesc{
+    font-weight: 300;
+
+}
+

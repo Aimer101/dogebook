@@ -1,0 +1,294 @@
+.messanger{
+    display: flex;  
+}
+
+.messangerContainer{
+    height:100vh;
+    overflow: hidden;
+}
+
+.chatMenu{
+    flex: 3.5;
+}
+
+.chatMenuInput{
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: none; 
+}
+
+.messagerSearch{
+    height:40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    color: darkblue;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+.whatsapp{
+    background-color: darkblue;
+    height: 80px;
+    padding-right: 10px;
+    margin-left: -15px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color: white;
+
+}
+
+.whatsappImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: solid white 2px;
+}
+
+.startChat{
+        position: absolute;
+        margin:auto;
+        border:none; 
+        top:350px;
+        left:230px;
+        width: 30%;
+        font-size: 20px;
+        padding: 7px;
+        border-radius: 20px;
+        background-color: darkblue;
+        font-weight: 500;
+        margin-right: 20px;
+        cursor: pointer;
+        color:white;
+    }
+
+.findPeopleToChat{
+
+display: block; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.hide{
+    display: none;
+}
+
+.modalContentChat{
+    background-color: #fefefe;
+    margin: auto;
+    width: 30%;
+    height: 60%;
+    
+    border-radius: 10px;
+}
+
+.searchbarChat{
+    width: 100%;
+    height:30px;
+    border-radius: 30px;
+    border: solid 1px black;
+    display:flex;
+    align-items: center;
+    color: darkblue;
+    margin-bottom: 3px;
+}
+
+.searchIconChat{
+    font-size: 20px !important;
+    margin-left: 10px;
+
+}
+
+.searchInputChat{
+    border:none;
+    width:70%;
+
+}
+
+
+
+.searchInputChat:focus{
+    outline:none;
+
+}
+
+
+.chatMenuInput:focus{
+    outline: none
+}
+
+.chatBox{
+    flex:5.5;
+    width: 650px;
+    padding-bottom: 10px;
+}
+
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.chatBoxTop{
+    height: calc(100vh - 180px);
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.chatBoxBtm{
+    margin-top: 5px;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatsappDetail{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatsappFullname{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.whatsappUsername{
+    margin-bottom: 15px;
+    color:rgb(207, 207, 207);
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+
+}
+
+.handleSearch{
+    margin-top: 60px;
+    
+}
+
+.handleSearch p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.chatMessageInput{
+    width: 90%;
+    height: 90px;
+    padding: 10px; 
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+}
+
+.chatSubmitBtn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:darkblue;
+    background-color: white;
+}
+
+.chatSubmitBtn:disabled{
+    background-color: white;
+    color: grey;
+    cursor: auto;
+}
+
+.chatOnline{
+    flex:3.5;
+    border-bottom: none;
+    border: solid 1px;
+    padding: 15px;
+}
+
+.chatBoxWrapper, .chatOnlineWrapper{
+    padding: 15px;
+    padding-top: 0;
+    height: 100%; 
+}
+
+.noConversation{
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    
+    cursor: default;
+}
+
+.noConversation2{
+    position: absolute;
+    top: 35%;
+    font-size: 25px;
+    cursor: default;
+}
+
+.modalContentWrapperChat, .modalContentWrapperChatC{
+    padding: 10px;
+}
+
+.modalContentWrapperChatC{
+    display: none;
+}
+
+.topPartOfThisShit{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 35%;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.searhResultUserImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.btmPartOfThisShit{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Bottom:hover{
+    display: block;
+    background-color: rgb(196, 196, 196);
+}
+
+.Bottom{
+    display: block;
+}

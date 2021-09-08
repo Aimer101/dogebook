@@ -1,0 +1,101 @@
+.leftbar{
+    flex:3;
+    height: calc(100vh - 30px);
+    position: sticky;
+    padding-top: 30px;
+    top:0;
+}
+
+.logo1{
+    font-size: 30px;
+    font-weight: bold;
+    color:darkblue;
+    cursor: pointer;
+}
+
+
+
+.logoContainer{
+    display: flex;
+    padding-left: 60px;
+
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179)
+}
+
+
+.leftbarWrapper{
+    padding: 20px;
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    ;
+}
+
+.sidebarListItem{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-left: 40px;
+    color:black;
+    align-items: center;
+    position: relative;
+}
+
+.current{
+    color: darkblue
+}
+
+.sidebarListItem:hover{
+    background-color: darkblue;
+    color: white;
+} 
+
+.sidebarIcon{
+    margin-right: 15px;
+    font-size: 45px !important;
+
+}
+
+.sidebarListItemText{
+    font-weight: 500;
+}
+
+.notificationIconBadge{
+    width:15px;
+     height:15px;
+     background-color: blue;
+     border-radius: 50%;
+     color:white;
+     position:absolute;
+     top: 3px;
+     left: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 12px;
+}
+
+
+
+
+
+
+
+
+

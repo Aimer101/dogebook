@@ -1,0 +1,17 @@
+.circularLoading{
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.lololol{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    background-color: darkblue;
+    padding: 5px 50px;
+    border-radius: 25px;    
+}
+

@@ -1,0 +1,142 @@
+ .signup {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+  }
+
+  .error{
+      position: fixed;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 100px;
+      align-items: center;
+      font-weight: 300;
+      width: 100%;
+      height: 25px;
+      padding: 5px ;
+      background-color: crimson;
+      visibility:hidden;
+
+  }
+
+
+  .error.errorMsg{
+    visibility:visible;
+    cursor: pointer;
+    
+  }
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft, .loginRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color:#1775ee;
+    margin-bottom: 10px;
+}
+
+.loginDesc{
+    font-size: 24px;  
+}
+
+
+
+.loginBox2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.loginInput{
+    height: 50px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding-left: 10px;
+
+    padding-top: 5px;
+}
+
+.loginInput:focus{
+    outline:none;
+}
+
+.loginBtn{
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    background-color: #1775ee;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginForgot, .signUp{
+    color:#1775ee;
+    cursor: pointer;
+}
+
+
+
+.bottom{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.firstname{
+    margin-right: 20px;
+}
+
+
+
+.birthdayTitle{
+    font-size: 25px;
+    color: grey;
+    
+}
+
+.signUpRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.signUpItem{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.signUpLabel{
+    position: absolute;
+    font-size: 13px;
+    left:10px;
+    top:5px;
+    font-weight: 500;
+    color: darkblue
+}
+

@@ -1,0 +1,50 @@
+.feed{
+    flex:5.5;  
+}
+
+.feedWrapper{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.feed.nop .feedWrapper{
+    padding: 0;
+}
+
+.currentPageHome{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.newPost{
+    padding-top:15px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noPost{
+    width: 650px;
+    padding-top: 60px;
+
+}
+
+
+
+.newPost p {
+    background-color: darkblue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.newPost.hidden{
+    display: none;
+}
+

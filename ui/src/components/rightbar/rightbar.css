@@ -1,0 +1,82 @@
+.rightbar{
+    flex:3.5;
+    height: 100vh;
+    position: sticky;
+    top:0;
+}
+
+
+
+
+
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+
+}
+
+.searchbarRightbar{
+    height:30px;
+    border: solid 2px black;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    color: darkblue;
+    margin-bottom: 3px; 
+
+}
+
+
+.rightbarSuggestion{
+    margin-top: 30px;
+}
+
+.rightbarSuggestion .suggestion1{
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rightbarSuggestion .suggestion1:hover{
+    background-color: rgb(241, 241, 241);
+
+}
+
+.suggestion1 .suggestionDetail{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.suggestionDetail h1{
+    font-size: 20px;
+}
+
+.suggestionDetail p{
+    text-align: left;
+    font-size: 18px;
+    color: grey
+}
+
+.suggestionPic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+  .searchInputChat{
+      background-color: white !important;
+  }
+
+  .searchInputChat::placeholder{
+      color: black !important;
+  }

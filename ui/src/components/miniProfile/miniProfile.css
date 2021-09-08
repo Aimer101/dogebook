@@ -1,0 +1,102 @@
+.miniProfileWrapper{
+    padding: 3px;
+    position: relative;
+}
+
+.saveEditProfile{
+    position: absolute;
+    top: -35px;
+    left: 15px;
+    margin:auto;
+    border:none;
+    width: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color:white;
+}
+
+.miniProfileImages{
+    height: 260px;
+    position:relative;
+}
+
+
+
+.miniProfileCoverImg{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+
+.miniProfilePicture{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+.changePP{
+    position: absolute;
+    top: 180px;
+    left: 80px;    
+    cursor: pointer;
+}
+
+.changeCover{
+    position: absolute;
+    top: 80px;
+    left: 260px;
+    cursor: pointer; 
+}
+
+.changePP:hover, .changeCover:hover{
+    opacity: 0.6;
+}
+
+.miniProfileForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    height: 50px;
+    width: 95%;
+    padding-top: 1px;
+    border-radius: 10px;
+    border: 1px grey solid;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.namelabel{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: darkblue;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nameParent{
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+
+
