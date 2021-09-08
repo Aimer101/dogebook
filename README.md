@@ -82,7 +82,6 @@ You can create a post with/ without image
 * Rebark(same like retweet)
 * Reply
 * Save
-* 
 ![image](https://user-images.githubusercontent.com/60194292/132559204-a8744cc8-512e-43ed-a8d5-73f7158bbe3a.png)
 
 
